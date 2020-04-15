@@ -1,5 +1,6 @@
+CREATE DATABASE db_forestfires;
 CREATE EXTERNAL TABLE IF NOT EXISTS
-forestfires.data (
+db_forestfires.t_forestfires (
   X string,
   Y string,
   month string,
