@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS db_forestfires CASCADE;
 CREATE DATABASE db_forestfires;
 CREATE EXTERNAL TABLE IF NOT EXISTS
 db_forestfires.t_forestfires (
